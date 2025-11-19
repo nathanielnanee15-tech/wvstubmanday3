@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William V.S Tubman Gray High School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body style="margin:0; font-family: Arial, sans-serif; background-color: #f0f2f5; color: #333; padding-top:100px;">
+
+<!-- Top Bar Above Header -->
+<div style="background-color:goldenrod; color:white; font-size:16px; padding:15px 20px; font-weight:bold; display:flex; align-items:center; justify-content:space-between; overflow:hidden; position:relative;">
+
+  <!-- Moving Text (Left Side) -->
+  <div style="flex:1; overflow:hidden; position:relative; height:22px;">
+      <div style="
+          white-space:nowrap;
+          position:absolute;
+          font-size:17px;
+          opacity:0.9;
+          animation: movetext 12s linear infinite;
+      ">
+         First Entrance is Next month
+      </div>
+  </div>
+
+  <!-- Static Text (Right Side – Links + Email Icon) -->
+  <div style="margin-left:20px; white-space:nowrap;">
+      <a href="programs.html" style="color:white; text-decoration:none; margin-right:12px;">Browse Programs</a> |
+      <a href="ecollege.html" style="color:white; text-decoration:none; margin:0 12px;">eCollege Portal</a> |
+      <a href="support.html" style="color:white; text-decoration:none; margin:0 12px;">Support SU</a> |
+      <a href="mailto:info@school.com" style="color:white; text-decoration:none; margin-left:12px;">
+          <i class="fa-solid fa-envelope"></i>
+      </a>
+  </div>
+
+</div>
+
+<!-- Animation -->
+<style>
+@keyframes movetext {
+  0% { left: 100%; }
+  100% { left: -100%; }
+}
+</style>
+
+
+
+
+<!-- HEADER -->
+<header style="background-color:#211a34; color:white; padding:12px 20px; position:sticky; top:0; z-index:9999;">
+  <div style="
+      max-width:1200px; 
+      margin:auto; 
+      display:flex; 
+      align-items:center; 
+      justify-content:space-between;
+      white-space:nowrap;
+  ">
+
+    <!-- LEFT: Logo + Name -->
+    <div style="display:flex; align-items:center; gap:10px;">
+      <img src="schoollogo.jpg" alt="T.Gray" style="height:45px;">
+      <h2 style="margin:0; font-size:18px; font-family:Georgia;">W.V.S Tubman Gray</h2>
+    </div>
+
+    <!-- RIGHT: MENU -->
+    <nav style="display:flex; align-items:center; gap:10px;">
+
+      <a href="index.html" class="menu-link">Home</a>
+
+      <div class="dropdown">
+        <a class="menu-link">Our School ▼</a>
+        <div class="dropdown-content">
+          <a href="principal message.html">Principal Message</a>
+          <a href="student affair.html">Student Affairs</a>
+        </div>
+      </div>
+
+      <a href="Myindex.html" class="menu-link">Work</a>
+      <a href="Myindex.html" class="menu-link">Home</a>
+
+      <div class="dropdown">
+        <a class="menu-link">About ▼</a>
+        <div class="dropdown-content">
+          <a href="abouttheschool.html">The School</a>
+          <a href="aboutdeveloper.html">The Developer</a>
+        </div>
+      </div>
+      <a href="NewandEvents.html" class="menu-link">News & Events</a>
+      <a href="FAQ.html" class="menu-link">FAQ</a>
+      <a href="contact.html" class="menu-link">Contact</a>
+
+      <!-- LOGIN BUTTON -->
+      <a href="login.html" style="
+        background:white; 
+        color:#211a34; 
+        padding:6px 12px; 
+        border-radius:5px; 
+        font-weight:bold;
+        text-decoration:none;
+      ">Login</a>
+
+    </nav>
+
+  </div>
+</header>
+
+<!-- STYLE -->
+<style>
+  .menu-link {
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    display:inline-block;
+  }
+
+  .menu-link:hover {
+    background: #ffffff33;
+  }
+
+  /* DROPDOWN */
+  .dropdown { position: relative; display: inline-block; }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 999;
+  }
+  .dropdown-content a {
+    color: #211a34;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  .dropdown-content a:hover { background:#f0f0f0; }
+  .dropdown:hover .dropdown-content { display:block; }
+</style>
+
+
+
+
+
+
+<!-- Hero +  -->
+<section class="hero-section">
+  <!-- Hero -->
+  <div class="hero-animate" style="padding: 60px 20px; color:white; text-shadow:2px 2px 8px rgba(0,0,0,0.7);">
+      <h2 id="hero-title" style="font-size: 56px; font-weight: bold; margin-bottom: 15px; font-family:'Montserrat', sans-serif;">
+          WELCOME TO THE EAGLE KINGDOM
+      </h2>
+
+      <p id="hero-subtitle" style="font-size: 22px; font-style: italic; color: #f0e68c; margin-top: 10px;">
+          PONOFALO [LIGHT IS NOT HIDDEN]
+      </p>
+
+      <a href="Myindex.html" style="background-color:gold; color:black; padding:6px 12px; text-decoration:none; border-radius:4px;"><b>GET STARTED</b></a>
+  </div>
+</section>
+
+<style>
+.hero-section {
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  animation: slideBackground 16s infinite;
+}
+
+/* Keyframes for cycling background images */
+@keyframes slideBackground {
+  0% {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+                  url('background.jpg') center/cover no-repeat;
+                  
+  }
+  25% {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+                  url('background 2.jpg') center/cover no-repeat;
+  }
+  50% {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+                  url('background 3.jpg') center/cover no-repeat;
+  }
+  75% {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+                  url('background 4.jpg') center/cover no-repeat;
+  }
+  100% {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+                  url('background 5.jpg') center/cover no-repeat;
+  }
+}
+</style>
+
+<script>
+// Array of titles and subtitles corresponding to each background
+const slides = [
+  { title: "WELCOME TO THE EAGLE KINGDOM", subtitle:  "PONOFALO [LIGHT IS NOT HIDDEN]" },
+  { title: "EXPLORE OUR KINGDOM", subtitle: "ADVENTURE AWAITS" },
+  { title: "JOIN THE COMMUNITY", subtitle: "BE PART OF THE LIGHT" },
+  { title: "EMBRACE THE FUTURE", subtitle: "LIGHT IS REVEALED" },
+  { title: "OUR SCHOOL SPIRIT", subtitle: "UNITY AND EXCELLENCE" } // matches 100% keyframe
+];
+
+let index = 0;
+const titleEl = document.getElementById('hero-title');
+const subtitleEl = document.getElementById('hero-subtitle');
+
+function changeText() {
+  index = (index + 1) % slides.length;
+  titleEl.textContent = slides[index].title;
+  subtitleEl.textContent = slides[index].subtitle;
+}
+
+// Change text every 4 seconds to match your 16s animation with 4 slides
+setInterval(changeText, 4000);
+</script>
+
+
+
+
+
+
+
+
+<!-- ================
+     SCHOOL PROGRAMS / CLUBS
+============================= -->
+<section style="padding:30px 10px; background-color:#f7f7fa;">
+ 
+
+  <div style="
+      display:grid; 
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+      gap:30px; 
+      max-width:1200px; 
+      margin:auto;
+      text-align:center;
+  ">
+     <div style=" padding:30px; ">
+      <i class="fa-solid fa-building-columns" style="font-size:40px; color:#333; margin-bottom:15px;"></i>
+      <h3 style="margin-bottom:10px;">High School Life</h3>
+      <p>Overall in here</p>
+    </div>
+    <div style=" padding:30px; ">
+      <i class="fa-solid fa-graduation-cap" style="font-size:40px; color:#333; margin-bottom:15px;"></i>
+      <h3 style="margin-bottom:10px;">Graduation</h3>
+      <p>Getting Degree</p>
+    </div>
+    <div style=" padding:30px; ">
+      <i class="fa-solid fa-award" style="font-size:40px; color:#333; margin-bottom:15px;"></i>
+      <h3 style="margin-bottom:10px;">T. Gray Honors Society</h3>
+      <p>Our Scholars</p>
+    </div>
+    <div style=" padding:30px; ">
+      <i class="fa-solid fa-laptop-code" style="font-size:40px; color:#333; margin-bottom:15px;"></i>
+      <h3 style="margin-bottom:10px;">School Club</h3>
+      <p>Press Club</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- ==============APPLY FOR ADMISSION============= -->
+<section style="display:flex; flex-wrap:wrap; min-height:400px;">
+
+
+  <!-- Left Side: Full Background Image -->
+  <div style="
+      flex:1; 
+      min-width:300px; 
+      background: url('admission\ img.jpg') center/cover no-repeat;
+  ">
+  </div>
+
+ <!-- Right Side: Text & Button  -->
+<div style="
+flex:1; 
+min-width:300px; 
+padding:50px; 
+display:flex; 
+flex-direction:column; 
+justify-content:center; 
+color:white;
+background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
+            url('admission\ right.jpg') center/cover no-repeat;
+">
+<h2 style="font-size:36px; margin-bottom:20px;">🎓 Apply for Enrolement</h2>
+<p style="font-size:18px; line-height:1.6; margin-bottom:25px;">
+    Start your journey with William V.S Tubman Gray High School.  
+    Join an institution committed to academic excellence, discipline, and growth.
+</p>
+<a href="Mycontact.html" 
+   style="background-color:gold; color:black; padding:12px 25px; 
+          text-decoration:none; border-radius:6px; font-size:18px; 
+          font-weight:bold; transition:0.3s; display:inline-block; width:max-content;">
+    APPLY NOW <i class="fa-solid fa-arrow-right"></i>
+</a>
+</div>
+
+</section>
+
+
+
+
+
+
+<!-- =========SCHOOL FEATURES SECTION============= -->
+<section style="padding: 50px 20px; background-color: goldenrod;">
+  
+  <h2 style="text-align:center; font-size:32px; margin-bottom:20px; color:#211a34;">
+     School Features
+  </h2>
+
+  <div style="max-width: 1200px; margin:auto; display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
+
+    <div class="feature-box" style="flex:1; min-width:250px; background:#f0f2f5; padding:20px; border-radius:10px; text-align:center; transition:0.3s; cursor:pointer;">
+      <i class="fa-solid fa-graduation-cap" style="font-size:40px; color:#211a34;"></i>
+      <h3>Quality Education</h3>
+      <p>We provide strong academic training with experienced teachers.</p>
+      <a href="Mycontact.html" style="background-color: #211a34; color: #f0f2f5;;
+       padding: 10px 20px; text-decoration: none; border-radius: 5px;">Learn More</a>
+    </div>
+
+    <div class="feature-box" style="flex:1; min-width:250px; background:#f0f2f5; padding:20px; border-radius:10px; text-align:center; transition:0.3s; cursor:pointer;">
+      <i class="fa-solid fa-computer" style="font-size:40px; color:#211a34;"></i>
+      <h3>Modern Computer Lab</h3>
+      <p>Fully equipped ICT lab to prepare students for the digital future.</p>
+      <a href="Mycontact.html" style="background-color: #211a34; color: #f0f2f5;;
+       padding: 10px 20px; text-decoration: none; border-radius: 5px;">Learn More</a>
+    </div>
+
+    <div class="feature-box" style="flex:1; min-width:250px; background:#f0f2f5; padding:20px; border-radius:10px; text-align:center; transition:0.3s; cursor:pointer;">
+      <i class="fa-solid fa-shield-halved" style="font-size:40px; color:#211a34;"></i>
+      <h3>Safe Learning Environment</h3>
+      <p>Secure, organized and friendly campus for all students.</p>
+      <a href="Mycontact.html" style="background-color: #211a34; color: #f0f2f5;;
+       padding: 10px 20px; text-decoration: none; border-radius: 5px;">Learn More</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+<!-- =============DEPARTMENTS  ================ -->
+<section style="position: relative; padding: 50px 20px; overflow: hidden;">
+
+  <!-- Video Backgrounds -->
+  <video id="video1" autoplay muted loop playsinline 
+         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity:1; transition: opacity 1.5s;">
+    <source src="videobackground1.mp4" type="video/mp4">
+  </video>
+
+  <video id="video2" autoplay muted loop playsinline 
+         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; opacity:0; transition: opacity 1.5s;">
+    <source src="backround2.mp4" type="video/mp4">
+  </video>
+
+  <!-- Dark Overlay -->
+  <div style="position: absolute; top:0; left:0; width:100%; height:100%; background-color: rgba(0,0,0,0.75); z-index: 0;"></div>
+
+  <!-- Section Content -->
+  <div style="position: relative; z-index: 1; max-width: 1000px; margin: auto; color: white;">
+    <h2 style="text-align:center; font-size:32px; margin-bottom:20px; color:white; text-shadow: 2px 2px 6px rgba(0,0,0,0.7);">
+       Departments / Academics <i class="fa-solid fa-school"></i>
+    </h2>
+
+    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px;">
+      <div class="dept-box" style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px; text-align:center; transition:0.3s; cursor:pointer;">
+        <i class="fa-solid fa-flask" style="font-size:35px; color:#f0e68c;"></i>
+        <h3>Science Department</h3>
+        <p>Biology • Chemistry • Physics</p>
+      </div>
+
+      <div class="dept-box" style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px; text-align:center; transition:0.3s; cursor:pointer;">
+        <i class="fa-solid fa-book-open" style="font-size:35px; color:#f0e68c;"></i>
+        <h3>Arts Department</h3>
+        <p>History • Geography • Literature</p>
+      </div>
+
+      <div class="dept-box" style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px; text-align:center; transition:0.3s; cursor:pointer;">
+        <i class="fa-solid fa-coins" style="font-size:35px; color:#f0e68c;"></i>
+        <h3>Business Department</h3>
+        <p>Accounting • Economics • Commerce</p>
+      </div>
+
+      <div class="dept-box" style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px; text-align:center; transition:0.3s; cursor:pointer;">
+        <i class="fa-solid fa-computer" style="font-size:35px; color:#f0e68c;"></i>
+        <h3>ICT Department</h3>
+        <p>Computer Literacy • Digital Skills</p>
+      </div>
+
+      <div class="dept-box" style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px; text-align:center; transition:0.3s; cursor:pointer;">
+        <i class="fa-solid fa-computer" style="font-size:35px; color:#f0e68c;"></i>
+        <h3>Language Art Department</h3>
+        <p>Grammar • Composition  • Phonics  
+           Vocabulary  • Reading Comprehension</p>
+      </div>
+
+      <div class="dept-box" style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px; text-align:center; transition:0.3s; cursor:pointer;">
+        <i class="fa-solid fa-computer" style="font-size:35px; color:#f0e68c;"></i>
+        <h3>Mathematics Department</h3>
+        <p>Algebra • Geometry</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+// Fade toggle between two videos every 8 seconds
+const video1 = document.getElementById('video1');
+const video2 = document.getElementById('video2');
+let showVideo1 = true;
+
+setInterval(() => {
+  if (showVideo1) {
+    video1.style.opacity = 0;
+    video2.style.opacity = 1;
+  } else {
+    video1.style.opacity = 1;
+    video2.style.opacity = 0;
+  }
+  showVideo1 = !showVideo1;
+}, 8000);
+</script>
+
+<script>
+// Fade toggle between two videos every 8 seconds
+const video1 = document.getElementById('video1');
+const video2 = document.getElementById('video2');
+let showVideo1 = true;
+
+setInterval(() => {
+  if (showVideo1) {
+    video1.style.opacity = 0;
+    video2.style.opacity = 1;
+  } else {
+    video1.style.opacity = 1;
+    video2.style.opacity = 0;
+  }
+  showVideo1 = !showVideo1;
+}, 8000); // Change every 8 seconds
+</script>
+
+
+
+
+
+<!-- ===============IMAGE GALLERY CAROUSEL====================== -->
+<section style="padding: 50px 20px; background-color: white; overflow:hidden;">
+  <h2 style="text-align:center; font-size:32px; margin-bottom:40px; color:gold; font-weight:bold;">
+    Our School Image Gallery
+  </h2>
+
+  <div id="gallery-carousel" style="
+      max-width:1200px; 
+      margin:auto; 
+      display:flex; 
+      gap:20px; 
+      transition: transform 0.8s ease-in-out;
+  ">
+
+    <!-- Slide 1 -->
+    <div style="position:relative; min-width:250px; border-radius:15px; overflow:hidden;">
+      <img src="gallery admission img.jpg" style="width:100%; height:250px; object-fit:cover; transition: transform 0.5s;">
+      <div style="position:absolute; top:0; left:0; width:100%; height:100%; 
+                  background: rgba(0,0,0,0.4); color:white; display:flex; align-items:center; justify-content:center; 
+                  font-size:20px; font-weight:bold;">
+        Admission Day
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div style="position:relative; min-width:250px; border-radius:15px; overflow:hidden;">
+      <img src="background 3.jpg" style="width:100%; height:250px; object-fit:cover; transition: transform 0.5s;">
+      <div style="position:absolute; top:0; left:0; width:100%; height:100%; 
+                  background: rgba(0,0,0,0.4); color:white; display:flex; align-items:center; justify-content:center; 
+                  font-size:20px; font-weight:bold;">
+       School Event
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div style="position:relative; min-width:250px; border-radius:15px; overflow:hidden;">
+      <img src="background 5.jpg" style="width:100%; height:250px; object-fit:cover; transition: transform 0.5s;">
+      <div style="position:absolute; top:0; left:0; width:100%; height:100%; 
+                  background: rgba(0,0,0,0.4); color:white; display:flex; align-items:center; justify-content:center; 
+                  font-size:20px; font-weight:bold;">
+        Sport Day
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div style="position:relative; min-width:250px; border-radius:15px; overflow:hidden;">
+      <img src="background 4.jpg" style="width:100%; height:250px; object-fit:cover; transition: transform 0.5s;">
+      <div style="position:absolute; top:0; left:0; width:100%; height:100%; 
+                  background: rgba(0,0,0,0.4); color:white; display:flex; align-items:center; justify-content:center; 
+                  font-size:20px; font-weight:bold;">
+       Our Seniors
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+const carousel = document.getElementById('gallery-carousel');
+const slides = carousel.children;
+let index = 0;
+const total = slides.length;
+
+function slideGallery() {
+  index++;
+  if(index >= total) index = 0;
+  const offset = -index * (slides[0].offsetWidth + 20); // 20px gap
+  carousel.style.transform = 'translateX(' + offset + 'px)';
+}
+
+// Auto-slide every 3 seconds
+setInterval(slideGallery, 3000);
+
+// Optional: Hover zoom effect
+Array.from(slides).forEach(slide => {
+  slide.addEventListener('mouseenter', () => {
+    slide.querySelector('img').style.transform = 'scale(1.1)';
+  });
+  slide.addEventListener('mouseleave', () => {
+    slide.querySelector('img').style.transform = 'scale(1)';
+  });
+});
+</script>
+
+
+<!-- ======================= ANNOUNCEMENTS AUTO-SLIDE (WITH BACKGROUND IMAGE)======================= -->
+<section style="
+  padding: 50px 20px; 
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('announcement.jpg') center/cover no-repeat;
+  color: white;
+">
+  <h2 style="text-align:center; font-size:32px; margin-bottom:20px;">
+     ANNOUNCEMENTS
+  </h2>
+
+  <div id="announcement-box" style="
+    max-width:900px; 
+    margin:auto; 
+    background:rgba(255,255,255,0.15); 
+    padding:25px; 
+    border-radius:10px; 
+    box-shadow:0 4px 10px rgba(0,0,0,0.2); 
+    text-align:center; 
+    min-height:150px; 
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    backdrop-filter: blur(4px);
+  ">
+  </div>
+</section>
+
+<script>
+// Hover effects
+const features = document.querySelectorAll('.feature-box');
+const depts = document.querySelectorAll('.dept-box');
+const gallery = document.querySelectorAll('.gallery-img');
+
+features.forEach(box => {
+  box.addEventListener('mouseenter', () => { 
+    box.style.transform = 'scale(1.05)'; 
+    box.style.boxShadow = '0px 6px 15px rgba(0,0,0,0.2)'; 
+  });
+  box.addEventListener('mouseleave', () => { 
+    box.style.transform = 'scale(1)'; 
+    box.style.boxShadow = 'none'; 
+  });
+});
+
+depts.forEach(box => {
+  box.addEventListener('mouseenter', () => { 
+    box.style.transform = 'scale(1.05)'; 
+    box.style.boxShadow = '0px 6px 15px rgba(0,0,0,0.2)'; 
+  });
+  box.addEventListener('mouseleave', () => { 
+    box.style.transform = 'scale(1)'; 
+    box.style.boxShadow = 'none'; 
+  });
+});
+
+gallery.forEach(img => {
+  img.addEventListener('mouseenter', () => { img.style.transform = 'scale(1.08)'; });
+  img.addEventListener('mouseleave', () => { img.style.transform = 'scale(1)'; });
+});
+
+// Auto-sliding announcements
+const announcements = [
+  "📌 Entrance Exam 2025: Registration begins next month.",
+  "📌 PTA Meeting: All parents are invited this Friday.",
+  "📌 School Sports Day: Prepare your teams!",
+  "📌 New ICT Lab Coming Soon.",
+];
+
+let annIndex = 0;
+const annBox = document.getElementById('announcement-box');
+
+function showAnnouncement() {
+  annBox.innerHTML = `<h3>${announcements[annIndex]}</h3>`;
+  annIndex = (annIndex + 1) % announcements.length;
+}
+
+showAnnouncement();
+setInterval(showAnnouncement, 4000);
+</script>
+
+
+
+
+
+    <!-- Footer -->
+    <footer id="contact" style="background-color:#211a34; color:white; padding:20px 50px; text-align:center; margin-top:50px;">
+        <p>Contact us: nathannielnanee15@gmail.com | +231 777 115 844</p>
+        <p> 2025 William V.S Tubman Gray High School. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

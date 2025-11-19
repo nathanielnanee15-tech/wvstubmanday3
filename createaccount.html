@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body style="
+margin:0; 
+padding:0; 
+font-family:Arial, sans-serif;
+background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('background.jpg');
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+">
+
+    <div style="
+        width:100%; height:100vh; 
+        display:flex; align-items:center; justify-content:center;
+    ">
+
+        <div style="
+            background:white; padding:30px; border-radius:10px; width:350px;
+            box-shadow:0px 0px 15px rgba(0,0,0,0.3); text-align:center;
+        ">
+
+            <h2 style="margin-bottom:20px; color:#333;">
+                <i class="fa-solid fa-user-plus"></i> Create Account
+            </h2>
+
+            <form>
+
+                <div style="margin-bottom:15px; text-align:left;">
+                    <label style="font-size:14px; font-weight:bold;">Full Name</label>
+                    <input type="text" placeholder="Enter your full name" required
+                        style="width:100%; padding:10px; border-radius:5px; border:1px solid #aaa; margin-top:5px;">
+                </div>
+
+                <div style="margin-bottom:15px; text-align:left;">
+                    <label style="font-size:14px; font-weight:bold;">Gmail</label>
+                    <input type="email" placeholder="example@gmail.com" required
+                        pattern=".+@gmail\.com"
+                        title="Email must end with @gmail.com"
+                        style="width:100%; padding:10px; border-radius:5px; border:1px solid #aaa; margin-top:5px;">
+                </div>
+
+                <div style="margin-bottom:15px; text-align:left;">
+                    <label style="font-size:14px; font-weight:bold;">Password</label>
+                    <input type="password" placeholder="Enter your password" required
+                        style="width:100%; padding:10px; border-radius:5px; border:1px solid #aaa; margin-top:5px;">
+                </div>
+
+                <button style="
+                    background:gold; color:black; padding:10px; width:100%;
+                    border:none; border-radius:5px; font-size:16px; cursor:pointer;
+                ">
+                    <a href="createaccountsuccess.html"> Create Account</a>
+                </button>
+
+            </form>
+
+            <div style="margin-top:15px; font-size:14px;">
+                <a href="login.html" style="color:#333; text-decoration:none;">Back to Login</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

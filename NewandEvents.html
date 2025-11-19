@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News & Events – William V.S Tubman Gray</title>
+</head>
+
+<body style="margin:0; font-family: Arial, sans-serif; background:#f4f4f4;">
+    <!-- Top Bar Above Header -->
+<div style="background-color:goldenrod; color:white; font-size:16px; padding:15px 20px; font-weight:bold; display:flex; align-items:center; justify-content:space-between; overflow:hidden; position:relative;">
+
+    <!-- Moving Text (Left Side) -->
+    <div style="flex:1; overflow:hidden; position:relative; height:22px;">
+        <div style="
+            white-space:nowrap;
+            position:absolute;
+            font-size:17px;
+            opacity:0.9;
+            animation: movetext 12s linear infinite;
+        ">
+           First Entrance is Next month
+        </div>
+    </div>
+  
+    <!-- Static Text (Right Side – Links + Email Icon) -->
+    <div style="margin-left:20px; white-space:nowrap;">
+        <a href="programs.html" style="color:white; text-decoration:none; margin-right:12px;">Browse Programs</a> |
+        <a href="ecollege.html" style="color:white; text-decoration:none; margin:0 12px;">eCollege Portal</a> |
+        <a href="support.html" style="color:white; text-decoration:none; margin:0 12px;">Support SU</a> |
+        <a href="mailto:info@school.com" style="color:white; text-decoration:none; margin-left:12px;">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+    </div>
+  
+  </div>
+  
+  <!-- Animation -->
+  <style>
+  @keyframes movetext {
+    0% { left: 100%; }
+    100% { left: -100%; }
+  }
+  </style>
+  
+  
+  
+  
+ 
+
+
+<!-- HEADER -->
+<header style="background-color:#211a34; color:white; padding:12px 20px; position:sticky; top:0; z-index:9999;">
+  <div style="
+      max-width:1200px; 
+      margin:auto; 
+      display:flex; 
+      align-items:center; 
+      justify-content:space-between;
+      white-space:nowrap;
+  ">
+
+    <!-- LEFT: Logo + Name -->
+    <div style="display:flex; align-items:center; gap:10px;">
+      <img src="schoollogo.jpg" alt="T.Gray" style="height:45px;">
+      <h2 style="margin:0; font-size:18px; font-family:Georgia;">W.V.S Tubman Gray</h2>
+    </div>
+
+    <!-- RIGHT: MENU -->
+    <nav style="display:flex; align-items:center; gap:10px;">
+
+      <a href="index.html" class="menu-link">Home</a>
+
+      <div class="dropdown">
+        <a class="menu-link">Our School ▼</a>
+        <div class="dropdown-content">
+          <a href="principal message.html">Principal Message</a>
+          <a href="student affair.html">Student Affairs</a>
+        </div>
+      </div>
+
+      <a href="Myindex.html" class="menu-link">Home</a>
+      <div class="dropdown">
+        <a class="menu-link">About ▼</a>
+        <div class="dropdown-content">
+          <a href="abouttheschool.html">The School</a>
+          <a href="aboutdeveloper.html">The Developer</a>
+        </div>
+      </div>
+      <a href="NewandEvents.html" class="menu-link">News & Events</a>
+      <a href="FAQ.html" class="menu-link">FAQ</a>
+      <a href="contact.html" class="menu-link">Contact</a>
+
+      <!-- LOGIN BUTTON -->
+      <a href="login.html" style="
+        background:white; 
+        color:#211a34; 
+        padding:6px 12px; 
+        border-radius:5px; 
+        font-weight:bold;
+        text-decoration:none;
+      ">Login</a>
+
+    </nav>
+
+  </div>
+</header>
+
+<!-- STYLE -->
+<style>
+  .menu-link {
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    display:inline-block;
+  }
+
+  .menu-link:hover {
+    background: #ffffff33;
+  }
+
+  /* DROPDOWN */
+  .dropdown { position: relative; display: inline-block; }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 999;
+  }
+  .dropdown-content a {
+    color: #211a34;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  .dropdown-content a:hover { background:#f0f0f0; }
+  .dropdown:hover .dropdown-content { display:block; }
+</style>
+
+
+  
+
+<!-- PAGE TITLE -->
+<section style="padding: 50px 20px; background:#ffffff; color:#211a34; text-align:center;">
+  <h1 style="font-size: 38px; margin:0;">News & Events</h1>
+  <p style="margin-top:10px; opacity:0.8; font-size:17px;">
+    Stay updated with the latest news, activities and events happening in our school.
+  </p>
+</section>
+
+<!-- NEWS GRID -->
+<section style="padding: 40px 20px;">
+  <div style="
+    max-width: 1200px; 
+    margin: auto; 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 25px;
+  ">
+
+    <!-- CARD 1 -->
+    <div style="background:white; border-radius:12px; overflow:hidden; box-shadow:0 6px 15px rgba(0,0,0,0.1);">
+      <img src="sciencefairday.jpg" style="width:100%; height:180px; object-fit:cover;">
+      <div style="padding:20px;">
+        <h3 style="margin:0; color:#211a34; font-size:22px;">Science Fair Day 2025</h3>
+        <p style="margin:12px 0; color:#444;">
+          Students displayed outstanding creativity with innovative science projects.
+        </p>
+        <a href="sciencefairdaynews.html" style="color:#211a34; font-weight:bold; text-decoration:none;">Read More →</a>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div style="background:white; border-radius:12px; overflow:hidden; box-shadow:0 6px 15px rgba(0,0,0,0.1);">
+      <img src="graduationceremony.jpg" style="width:100%; height:180px; object-fit:cover;">
+      <div style="padding:20px;">
+        <h3 style="margin:0; color:#211a34; font-size:22px;">Graduation Ceremony 2024</h3>
+        <p style="margin:12px 0; color:#444;">
+          Our 2024 graduation was a memorable celebration of hard work and success.
+        </p>
+        <a href="graduationceremonynews.html" style="color:#211a34; font-weight:bold; text-decoration:none;">Read More →</a>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div style="background:white; border-radius:12px; overflow:hidden; box-shadow:0 6px 15px rgba(0,0,0,0.1);">
+      <img src="campuscleanup.jpg" style="width:100%; height:180px; object-fit:cover;">
+      <div style="padding:20px;">
+        <h3 style="margin:0; color:#211a34; font-size:22px;">Campus Cleanup Day</h3>
+        <p style="margin:12px 0; color:#444;">
+          Staff and students teamed up to clean and beautify the campus environment.
+        </p>
+        <a href="cleanup.html" style="color:#211a34; font-weight:bold; text-decoration:none;">Read More →</a>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div style="background:white; border-radius:12px; overflow:hidden; box-shadow:0 6px 15px rgba(0,0,0,0.1);">
+      <img src="sportday.jpg" style="width:100%; height:180px; object-fit:cover;">
+      <div style="padding:20px;">
+        <h3 style="margin:0; color:#211a34; font-size:22px;">Inter-School Sports Meet</h3>
+        <p style="margin:12px 0; color:#444;">
+          Our athletes represented the school with pride in the annual sports competition.
+        </p>
+        <a href="intersportmeet.html" style="color:#211a34; font-weight:bold; text-decoration:none;">Read More →</a>
+      </div>
+    </div>
+
+    <!-- CARD 5 -->
+    <div style="background:white; border-radius:12px; overflow:hidden; box-shadow:0 6px 15px rgba(0,0,0,0.1);">
+      <img src="ICTtraining.jpg" style="width:100%; height:180px; object-fit:cover;">
+      <div style="padding:20px;">
+        <h3 style="margin:0; color:#211a34; font-size:22px;">ICT Training Workshop</h3>
+        <p style="margin:12px 0; color:#444;">
+          Students received hands-on training in modern digital tools and technologies.
+        </p>
+        <a href="ICTtraingprogram.html" style="color:#211a34; font-weight:bold; text-decoration:none;">Read More →</a>
+      </div>
+    </div>
+
+    <!-- CARD 6 -->
+    <div style="background:white; border-radius:12px; overflow:hidden; box-shadow:0 6px 15px rgba(0,0,0,0.1);">
+      <img src="careerday.jpg" style="width:100%; height:180px; object-fit:cover;">
+      <div style="padding:20px;">
+        <h3 style="margin:0; color:#211a34; font-size:22px;">Career Day Program</h3>
+        <p style="margin:12px 0; color:#444;">
+          Professionals visited to guide students about future career opportunities.
+        </p>
+        <a href="careerdevelop.html" style="color:#211a34; font-weight:bold; text-decoration:none;">Read More →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+
+<!-- Footer -->
+<footer style="
+    background:#211a34; color:white;
+    padding:20px; text-align:center; margin-top:40px;
+">
+      <p>Contact us: nathannielnanee15@gmail.com | +231 777 115 844</p>
+    <p> 2025 William V.S Tubman Gray High School. All Rights Reserved.</p>
+</footer>
+
+
+
+</body>
+</html>
+
+</html>
